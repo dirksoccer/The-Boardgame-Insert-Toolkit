@@ -50,7 +50,7 @@ data =
                   [ LID_PATTERN_ROW_OFFSET,       10 ],
                   [ LID_PATTERN_COL_OFFSET,       140 ],
                   [ LID_PATTERN_THICKNESS,        0.6 ],
-                  [ LID_NOTCHES_B, true],
+                  [ LID_LABELS_BORDER_THICKNESS, 0.9 ],
                   [ LABEL,
                       [
                           [ LBL_TEXT, "Too Many"],
@@ -80,7 +80,7 @@ data =
     // Deck Dimensions 69 x 93.5 x 26.5
     [   "2 deck card tray - finger cutout",
         [
-            [ BOX_SIZE_XYZ, [150, 100, 32.0] ],
+            [ BOX_SIZE_XYZ, [150, 101, 32.0] ],
             [ BOX_LID,
                 [
                   [ LID_PATTERN_RADIUS,         10],
@@ -90,6 +90,7 @@ data =
                   [ LID_PATTERN_ROW_OFFSET,       10 ],
                   [ LID_PATTERN_COL_OFFSET,       140 ],
                   [ LID_PATTERN_THICKNESS,        0.6 ],
+                  [ LID_LABELS_BORDER_THICKNESS, 0.9 ],
                     [ LABEL,
                         [
                             [ LBL_TEXT, "Decks"],
@@ -102,8 +103,8 @@ data =
             [ BOX_COMPONENT,
                 [
                     [ CMP_NUM_COMPARTMENTS_XY, [2, 1] ],
-                    [CMP_COMPARTMENT_SIZE_XYZ, [ 70, 94, 30.0] ],
-                    [CMP_CUTOUT_SIDES_4B, [t,t,f,f]], // all sides
+                    [ CMP_COMPARTMENT_SIZE_XYZ, [ 70, 94, 30.0] ],
+                    [ CMP_CUTOUT_SIDES_4B, [t,t,f,f]], // all sides
                 ]
             ],
         ]
@@ -112,7 +113,7 @@ data =
     // Badde Chip - 40 diameter, 3.25 thick
     [   "Baddies Tray",
         [
-            [ BOX_SIZE_XYZ, [137, 100, 42] ],
+            [ BOX_SIZE_XYZ, [137, 101, 42] ],
             [ BOX_LID,
                 [
                   [ LID_PATTERN_RADIUS,         10],
@@ -122,6 +123,7 @@ data =
                   [ LID_PATTERN_ROW_OFFSET,       10 ],
                   [ LID_PATTERN_COL_OFFSET,       140 ],
                   [ LID_PATTERN_THICKNESS,        0.6 ],
+                  [ LID_LABELS_BORDER_THICKNESS, 0.9 ],
                     [ LABEL,
                         [
                             [ LBL_TEXT, "Baddies"],
@@ -136,7 +138,7 @@ data =
                     [CMP_NUM_COMPARTMENTS_XY, [3, 1] ],
                     [CMP_SHAPE, ROUND],
                     [CMP_SHAPE_VERTICAL_B, false],
-                    [CMP_COMPARTMENT_SIZE_XYZ, [ 40, 95, 40] ],
+                    [CMP_COMPARTMENT_SIZE_XYZ, [ 40, 94, 40] ],
                     [CMP_CUTOUT_SIDES_4B, [t,t,f,f]], // all sides2
                 ]
             ],
@@ -145,7 +147,7 @@ data =
 
     [   "Health Tray",
         [
-            [ BOX_SIZE_XYZ, [137, 100, 42] ],
+            [ BOX_SIZE_XYZ, [137, 101, 42] ],
             [ BOX_LID,
                 [
                   [ LID_PATTERN_RADIUS,         10],
@@ -155,6 +157,7 @@ data =
                   [ LID_PATTERN_ROW_OFFSET,       10 ],
                   [ LID_PATTERN_COL_OFFSET,       140 ],
                   [ LID_PATTERN_THICKNESS,        0.6 ],
+                  [ LID_LABELS_BORDER_THICKNESS, 0.9 ],
                     [ LABEL,
                         [
                             [ LBL_TEXT, "Health"],
